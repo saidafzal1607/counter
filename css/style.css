@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(106, 170, 194, 0.3);
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+}
+h1{
+    color: rgba(13, 78, 102, 0.9);
+    text-transform: capitalize;
+    font-size: 80px;
+}
+#value{
+    font-weight: 600;
+    font-size: 100px;
+    
+}
+
+.button-container{
+    margin-top: 30px;
+}
+
+.btn{
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: 50px 5px 50px rgba(61, 209, 122, 0.3);
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin:0 10px ;
+}
+
